@@ -8,7 +8,7 @@ import Collections from "./pages/Collections";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/Differenciated-Project" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/collections" element={<Collections />} />

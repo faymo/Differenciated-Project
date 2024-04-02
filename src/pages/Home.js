@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Ripple,
@@ -78,7 +78,7 @@ const Home = () => {
       >
         <nav className="flex flex-wrap items-center justify-between text-white p-2">
           <Link
-            to={"/"}
+            to={"/Differenciated-Project"}
             className="font-bold text-xl uppercase tracking-wider ml-4"
           >
             Trade Protectionism

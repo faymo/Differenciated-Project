@@ -131,20 +131,20 @@ const Home = () => {
         <img
           style={starsElemetStyle}
           className="absolute pointer-events-none left-0 top-0 h-full w-full sm:object-cover "
-          src="Differenciated-Project/images/stars.png"
+          src="/Differenciated-Project/images/stars.png"
           alt="stars"
         />
 
         <img
           style={moonElemetStyle}
           className="absolute pointer-events-none top-0 left-0 h-full w-full object-scale-down mix-blend-screen"
-          src="Differenciated-Project/images/moon.png"
+          src="/Differenciated-Project/images/moon.png"
           alt="moon"
         />
         <img
           style={mountainsBehindElemetStyle}
           className="absolute pointer-events-none top-[70px] mt-[6rem] left-0 h-full w-full sm:object-cover z-11"
-          src="Differenciated-Project/images/sk3.png"
+          src="/Differenciated-Project/images/sk3.png"
           alt="back"
         />
         <h2 style={textElementStyle} className="absolute text-white font-extrabold text-[7.5vw] z-9">
@@ -161,7 +161,7 @@ const Home = () => {
           style={mountainsFrontElemetStyle}
           className="absolute pointer-events-none top-0
            left-0 h-full w-full sm:object-cover"
-          src="Differenciated-Project/images/sk5.png"
+          src="/Differenciated-Project/images/sk5.png"
           alt="front"
         />
         <button
@@ -218,14 +218,14 @@ const Home = () => {
           <p class="text-xl">
           An infant (or sunrise) industry is one that has just opened up and is not large enough to take advantage of economies of scale. The government can support infant industries through protection against larger competitors abroad.
           </p> 
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/graph1.png'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/graph1.png'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
           National security - #2
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/jet.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/jet.jpeg'} alt=""/>
           <p class="text-xl text-right">
           Goods and services for security should be produced domestically so protectionism can block foreign trading. Another important consideration for national security is the defence industry.
           </p> 
@@ -238,14 +238,14 @@ const Home = () => {
           <p class="text-xl">
           Governments have an obligation to keep their citizens safe. One way to do this is to enforce health and safety laws on any goods or services to protect consumers. Regulations and restrictions based on quality can be placed by the government to deter foreign producers. Countries may define clear production standards for goods in order to protect the environment. 
           </p> 
-          <img class="h-[24rem] w-[40rem] mt-4 mx-5" src={'Differenciated-Project/images/regulations.jpeg'} alt=""/>
+          <img class="h-[24rem] w-[40rem] mt-4 mx-5" src={'/Differenciated-Project/images/regulations.jpeg'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
           Anti-dumping - #4
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/anti.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/anti.jpeg'} alt=""/>
           <p class="text-xl text-right">
           Dumping refers to firms exporting their goods at a price below production cost. It is a type of predatory pricing behaviour. An importer may sell or ‘dump’ goods abroad in order to gain a foothold in a new market. A country may respond with its own protectionist measures to protect its domestic industries.          </p> 
         </div>
@@ -256,14 +256,14 @@ const Home = () => {
         <div class="flex place-items-center">
           <p class="text-xl">
           A country may impose trade protection if it believes it faces unfair competition. A country may believe that intellectual property has been stolen and use tariffs to even the playing field. Within the domestic economy, the government can protect innovators and inventors by using patents.           </p> 
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/unfair.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/unfair.jpeg'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
           Balance-of-payments correction: Reducing trade deficits - #6
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/balance.png'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/balance.png'} alt=""/>
           <p class="text-xl text-right">
           The balance of payments is the record of transactions in trade, capital and financial flows between a country and the rest of the world. The total balance of payments must always be equal to zero. Sometimes, extreme trade flows create challenges for the balance of payments.           </p> 
         </div>
@@ -274,14 +274,14 @@ const Home = () => {
         <div class="flex place-items-center">
           <p class="text-xl">
           Tariffs provide governments with the opportunity to earn tax revenue. Often, economically least developed countries lack a wide tax base. These countries may choose to impose tariffs on imports to raise government revenue. If an ELDC protects key industries in the short run, then in an absence of competition, domestic industries have a chance to grow and flourish.          </p> 
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/poor.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/poor.jpeg'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
           Protection of jobs - #8
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/jobs.png'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/jobs.png'} alt=""/>
           <p class="text-xl text-right">
           A country might use protectionism to protect jobs. As some industries economically decline and are unable to compete with similar industries abroad, the government may step in and offer trade protection.          </p> 
         </div>
@@ -310,14 +310,14 @@ const Home = () => {
           <p class="text-xl">
           Protectionism creates a misallocation of resources, which occurs when resources are not allocated to their best use. Distorting prices has consequences for resource allocation, since price is an important indicator to consumers to determine the quantity demanded.
           </p> 
-          <img class="h-[25rem] w-[40rem] mx-5 bg-white" src={'Differenciated-Project/images/graph2.png'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5 bg-white" src={'/Differenciated-Project/images/graph2.png'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
         Higher prices and reduced choice - #2
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/up.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/up.jpeg'} alt=""/>
           <p class="text-xl text-right">
           Tariffs and quotas will lead to higher prices, especially for domestic consumers. Tariffs act like a tax which increases the price of goods, whereas quotas create a shortage in the market that puts upward pressure on prices. Protectionism limits imports, and therefore limits choice for consumers.          </p> 
         </div>
@@ -329,14 +329,14 @@ const Home = () => {
           <p class="text-xl">
           If a country raises tariffs, its trading partner may retaliate by also imposing tariffs or other barriers to trade. Sometimes, escalating retaliation can lead to a trade war, which can cause tension between countries.
           </p> 
-          <img class="h-[25rem] w-[40rem] mx-5 bg-white" src={'Differenciated-Project/images/hp.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5 bg-white" src={'/Differenciated-Project/images/hp.jpeg'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
         Increased costs - #4
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/up.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/up.jpeg'} alt=""/>
           <p class="text-xl text-right">
           Tariffs or quotas imposed on raw materials will drive up the cost of production. If a government imposes a tariff, it must be mindful of the effects on downstream industries. A downstream industry uses inputs to production that are intermediate goods. </p>        </div>
         <h1 className="text-4xl self-start font-bold mt-10">
@@ -346,14 +346,14 @@ const Home = () => {
           <p class="text-xl">
           Without the threat of competition from abroad, domestic firms have no incentive to be efficient. Competition forces firms to pursue the lowest-cost method of production. It creates an environment where firms must innovate and invest in research and development. Without competition, the drive to improve disappears and domestic firms may continue to use outdated technologies or processes.
           </p> 
-          <img class="h-[24rem] w-[40rem] mt-4 mx-5 bg-white" src={'Differenciated-Project/images/lack.jpeg'} alt=""/>
+          <img class="h-[24rem] w-[40rem] mt-4 mx-5 bg-white" src={'/Differenciated-Project/images/lack.jpeg'} alt=""/>
         </div>
 
         <h1 className="text-4xl self-end font-bold mt-10">
         Reduced export competitiveness - #6
         </h1>
         <div class="flex place-items-center">
-          <img class="h-[25rem] w-[40rem] mx-5" src={'Differenciated-Project/images/export.jpeg'} alt=""/>
+          <img class="h-[25rem] w-[40rem] mx-5" src={'/Differenciated-Project/images/export.jpeg'} alt=""/>
           <p class="text-xl text-right">
           Protectionism creates a higher-cost environment, and reduces the efficiency of firms in the domestic market.           </p> 
         </div>
